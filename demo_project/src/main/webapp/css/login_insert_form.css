@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.box{
+    border: 1px solid gray;
+    background-color: gray;
+    width: 600px;
+    height: 800px;
+    margin: auto; /* 좌우 여백을 자동으로 설정하여 가운데 정렬 */
+    position: relative; /* 위치 설정을 상대적으로 변경 */
+    margin-top: auto; /* 위쪽 기준으로 50%만큼 이동 */
+    margin-bottom: auto; /* 위쪽 기준으로 50%만큼 이동 */
+   
+    
+}
+.form{
+    /* display: inline-block; */
+    text-align: center;
+
+}
