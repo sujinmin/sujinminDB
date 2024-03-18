@@ -45,7 +45,7 @@
  	<input id="se" type="text" placeholder="콘텐츠, 인물, 컬렉션, 유저를 검색해보세요." >
  	<img id="im" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" onclick="">
   	</a>	
-  	<input type="button"  id="btn1"  value="로그인" onclick=""/>
+  	<input type="button"  id="btn1"  value="로그인" onclick="location.href='member/login.do'"/>
   	<input type="button"  id="btn2"  value="회원가입" onclick=""/>
 </div>	
 <div id="posterBox">
