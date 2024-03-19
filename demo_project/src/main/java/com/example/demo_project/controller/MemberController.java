@@ -31,6 +31,12 @@ public class MemberController {
         
         return "member/login_form";
     }
+    
+    @RequestMapping("sign_up.do")
+    public String sign_up() {
+        
+        return "member/sign_up";
+    }
 
     /**
      * 로그인정보 넘기기
@@ -69,7 +75,7 @@ public class MemberController {
 		//세션에서 로그인 정보 삭제
 		session.removeAttribute("user");
 		
-		return "redirect:../movie_main.do";
+		return "redirect:../movie_list.do";
 	}
     /**
      * 회원가입 폼
