@@ -77,7 +77,7 @@
                 <a href="#" id="signup">SIGN UP</a>
             </li>
             <li>
-                <a href="#" id="reset">RESET</a>
+                <a href="../movie_main.do" id="Home">Home</a>
             </li>
         </ul>
     

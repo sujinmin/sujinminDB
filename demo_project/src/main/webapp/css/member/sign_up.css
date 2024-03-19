@@ -13,7 +13,7 @@ body{
   }
   
   h1{
-    color:#e91e63;
+    color:#33ccff;;
     font-size:48px;
     letter-spacing:-3px;
     text-align:center;
@@ -119,7 +119,7 @@ body{
     }
     
     .signin__btn{
-       background:#e91e63;
+       background:#33ccff;;
        color:white;
        display:block;
        width:92.5%;
@@ -131,10 +131,10 @@ body{
        cursor:pointer;
        font-size:14px;
        font-family: 'Montserrat', sans-serif;
-       box-shadow:0 15px 30px rgba(#e91e63,.36);
+       box-shadow:0 15px 30px rgba(#33ccff,.36);
       transition:.2s linear;
       &:hover{
-        box-shadow:0 0 0 rgba(#e91e63,.0);
+        box-shadow:0 0 0 rgba(#33ccff,.0);
       }
     }
   }
@@ -215,7 +215,7 @@ body{
     p{
       text-align:center;
       .fa{
-        color: #e91e63;
+        color: #33ccff;
       }
       a{
         text-decoration:none;
