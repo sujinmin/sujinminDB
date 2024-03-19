@@ -12,8 +12,8 @@ public class MovieController {
 	@RequestMapping("movie_main.do")
 	public String insert_form() {
 
+		
 		return "movie/movie_list";
-
 	}
 
 	
