@@ -44,8 +44,8 @@
 	<a id="cate" href="${ pageContext.request.contextPath }/product/list.do?c_idx=4">극장찿기</a>&emsp;
  	<input id="se" type="text" placeholder="콘텐츠, 인물, 컬렉션, 유저를 검색해보세요." >
 	<button id="bu" value="search" onclick="location.href='http://www.naver.com'">검색</button>
-  	<input type="button"  id="btn1"  value="로그인" onclick=""/>
-  	<input type="button"  id="btn2"  value="회원가입" onclick=""/>
+  	<input type="button"  id="btn1"  value="로그인" onclick="location.href='../member/login_form.do'"/>
+  	<input type="button"  id="btn2"  value="회원가입" onclick="location.href='../member/login_insert_form.do'"/>
 </div>	
 
 <div id="im1">

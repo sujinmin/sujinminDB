@@ -173,7 +173,7 @@
         <div class="bottom-container">
             <div class="row">
                 <div class="col">
-                    <a href="../member/login_form.do" style="color:white" class="btn" onclick="send(this.form);">로그인</a>
+                    <a href="../member/login_form.do" style="color:white" class="btn" onclick="send(this.form);">회원가입</a>
                 </div>
                 <div class="col">
                     <a onclick="location.href='../movie_main.do'" style="color:white" class="btn">메인화면</a>

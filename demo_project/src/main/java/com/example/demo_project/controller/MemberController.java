@@ -77,9 +77,16 @@ public class MemberController {
      */
     @RequestMapping("login_insert_form.do")
     public String login_insert_form(MemberVo vo) {
-        member_dao.insert(vo);
+        // member_dao.insert(vo);
         return "member/login_insert_form";
     }
-    
+
+    @RequestMapping("login_insert.do")
+    public String login_insert() {
+        // member_dao.insert(vo);
+        return "redirect:../member/login_form.do";
+
+    }
 
 }
+
