@@ -18,7 +18,7 @@
     let signin = $(".links").find("li").find("#signin") ;
     let reset  = $(".links").find("li").find("#reset")  ; 
     let first_input = $("form").find(".first-input");
-    let hidden_input = $("form").find(".input__block").find("#repeat__password");
+    let hidden_input = $("form").find(".input__block").find("#repeat__password").find("#mem_addr");
     let signin_btn  = $("form").find(".signin__btn");
   
     //----------- sign up ---------------------
