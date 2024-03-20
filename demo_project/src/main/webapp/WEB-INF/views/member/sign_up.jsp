@@ -6,13 +6,11 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/member/sign_up.css">
-<!-- 구글 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/></script>
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,800" rel="stylesheet">
+<!-- JS code -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- stuff for -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1"> -->
-
 
 <script>
     $(document).ready(function(){
@@ -64,6 +62,10 @@
 
 </head>
 <body>
+    <header id="header">
+        <a href="../movie_main.do"><span class="film">Film</span><span class="match">Match</span>&emsp;</a>
+    </header>
+
     <div class="container">
         <!-- Heading -->
         <h1>SIGN IN</h1>
@@ -85,7 +87,7 @@
         <form action="" method="post">
             <!-- email input -->
             <div class="first-input input__block first-input__block">
-                <input type="email" placeholder="Email" class="input" id="email" />
+                <input type="text" placeholder="Email" class="input" id="ID" />
             </div>
             <!-- password input -->
             <div class="input__block">
@@ -94,6 +96,10 @@
             <!-- repeat password input -->
             <div class="input__block">
                 <input type="password" placeholder="Repeat password" class="input repeat__password" id="repeat__password" />
+            </div>
+            <!-- 주소 -->
+            <div class="input__block">
+                <input type="text" placeholder="addr" class="input mem_addr" id="mem_addr" />
             </div>
             <!-- sign in button -->
             <button class="signin__btn">
@@ -117,30 +123,7 @@
     </div>
     
     <footer>
-        <p>
-            Thank you for watching
-            <i class="fa fa-heart"></i>
-            <i class="fa fa-heart"></i>
-            <i class="fa fa-heart"></i>
-        </p>
-        <p>
-            Chouaib Blgn :
-            <a href="https://www.facebook.com/chouaib45">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a href="http://twitter.com/chouaibblgn45">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a href="http://instagram.com/chouaib_blgn">
-                <i class="fa fa-instagram"></i>
-            </a>
-            <a href="http://linkedin.com/in/chouaibblgn/">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="https://www.behance.net/geek30">
-                <i class="fa fa-behance"></i>
-            </a>
-        </p>
+       
     </footer>
 </body>
 </html>

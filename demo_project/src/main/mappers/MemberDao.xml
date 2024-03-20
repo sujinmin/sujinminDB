@@ -31,7 +31,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 	<!-- update -->
 	<update id="update" parameterType="member">
-		update member set mem_pwd=#{mem_pwd},mem_email=#{mem_email},mem_zipcode=#{mem_zipcode},mem_addr=#{mem_addr},mem_grade=#{mem_grade},mem_ip=#{mem_ip},mem_modifydate=now()
+		update member set mem_pwd=#{mem_pwd},
+							mem_email=#{mem_email},
+							mem_zipcode=#{mem_zipcode},
+							mem_addr=#{mem_addr},
+							mem_grade=#{mem_grade},
+							mem_ip=#{mem_ip},
+							mem_modifydate=now()
 					 where mem_idx=#{mem_idx}
 	</update>
 	
