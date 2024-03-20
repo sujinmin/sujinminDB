@@ -35,8 +35,9 @@
 
 		<!-- Header -->
 			<header id="header"><div class="inner">
-					<a href="index.html" class="logo">introspect</a>
-					<nav id="nav"><a href="index.html">Home</a>
+					<a href="index.do" class="logo">introspect</a>
+					<nav id="nav"><a href="index.do">Home</a>
+						<a href="../member/login_form.do">LOGIN</a>
 						<a href="generic.html">Generic</a>
 						<a href="elements.html">Elements</a>
 					</nav></div>

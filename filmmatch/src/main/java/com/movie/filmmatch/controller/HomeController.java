@@ -28,13 +28,6 @@ public class HomeController{
 		
 	}
 	
-	@RequestMapping("/login1.do")
-	public String login1(){
-		
-		
-		return "member/login1";
-		
-	}
 	
 	@RequestMapping("/index.do")
 	public String idnex(){

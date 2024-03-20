@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo_photogallery.dao.MemberDao">
+	
+	<!-- 목록조회 -->
+	<select id="selectList" resultType="member">
+		select * from member order by mem_idx
+	</select>
+	
+	<!-- mem_idx 한개 조회 -->
+ 	<select id="selectOneFromIdx" parameterType="String" resultType="member">
+ 		select * from member where mem_idx = #{ mem_idx }
+ 	</select>
+  
+	<!-- mem_id로 조회 -->
+ 	<select id="selectOneFromId" parameterType="String" resultType="member">
+ 		select * from member where mem_id = #{ mem_id }
+ 	</select>
+ 	
+  	<!-- insert -->
+  	<insert id="insert" parameterType="member">
+  		update cart set c_cnt =#{c_cnt} where c_idx=#{c_idx}
+  	</insert>
+  	
+  	<!-- delete -->
+  	<delete id="delete" parameterType="int">
+  		delete from member where mem_idx=#{mem_idx}
+  	</delete>
+	
+	<!-- update -->
+	<update id="update" parameterType="member">
+		update member set mem_pwd=#{mem_pwd},mem_email=#{mem_email},mem_zipcode=#{mem_zipcode},mem_addr=#{mem_addr},mem_grade=#{mem_grade},mem_ip=#{mem_ip},mem_modifydate=now()
+					 where mem_idx=#{mem_idx}
+	</update>
+	
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
