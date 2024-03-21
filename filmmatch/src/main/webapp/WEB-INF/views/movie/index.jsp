@@ -14,7 +14,7 @@
 		<!-- Header -->
 		<header id="header"><div class="inner">
 					<a href="movie_main.do" class="logo"><span class="film">Film</span><span class="flow">Match</span></a>
-					<nav id="nav"><a href="log.do">Login</a>
+					<nav id="nav"><a href="../member/login_form.do">Login</a>
 						<a href="mypage.do">Mypage</a>
                         <a href="manager.do">Manager</a>
 						<a href="service.do">Service</a>
