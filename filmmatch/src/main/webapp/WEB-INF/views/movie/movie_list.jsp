@@ -52,7 +52,7 @@
 	<button class="search-btn" value="검색"> <i class="fa-solid fa-magnifying-glass"></i>
 	</button>
 	</form>	
-  	<input type="button"  id="btn1"  value="로그인" onclick="location.href='../member/login_form.do'"/>
+  	<input type="button"  id="btn1"  value="로그인" onclick=""/>
   	<input type="button"  id="btn2"  value="회원가입" onclick=""/>
 </div>	
 

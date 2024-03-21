@@ -1,0 +1,859 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#posterBox {
+	margin: auto;
+	padding: auto;
+	width: 1504px;
+	/* height: 1630px; */
+	height: 2625px;
+	
+}
+
+#boxx {
+	width: 1500px;
+	height:70px;
+	
+}
+
+#cate {
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	float: left;
+}
+
+#search {
+	position: relative;
+}
+
+input placeholder {
+	color: red;
+}
+
+.film {
+	margin-left: 50px;
+	font-size: 40px;
+	color: black;
+	font-family: 'EF_jejudoldam';
+	float: left;
+}
+/* Flow의 색상을 분홍색으로 지정 */
+.flow {
+	font-size: 40px;
+	color: #33ccff;
+	font-family: 'EF_jejudoldam';
+	float: left;
+}
+
+.search-box{
+	height: 40px;
+	width: 500px;
+	margin-left: 250px;
+	margin-top: 10px;
+	border: 1px solid black;
+	background: white;
+	border-radius: 40px;
+	padding: 12px;
+	box-shadow: 2px 2px 2px 2px gray;
+	text-align: center;
+	float: left;
+}
+
+.search-box:hover{
+	text-shadow: 1px 1px 1px gray;
+}
+
+.search-text{
+	border: none;
+	text-align: center;
+	
+	background: none;
+	outline: none;
+	float: left;
+	padding-left: 10px;
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	width: 90%;
+}
+
+.search-btn{
+	color: gray;
+	float: right;
+	width: 40px;
+	height: 100%;
+	border-radius: 50%;
+	background: white;
+	border: none;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.search-btn:hover{
+	color: rgb(21, 21, 214, 0.692);
+	font-weight: bold;
+
+}
+
+@font-face {
+	font-family: 'EF_jejudoldam';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WAGURITTF';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTHakgyoansimUndongjangL';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimUndongjangL.woff2')
+		format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+#btn1 {
+	width: 70px;
+	height: 40px;
+	background-color: white;
+	border: none;
+	margin-top: 20px;
+	margin-left: 40px;
+	color: #33ccff;
+	font-size: 20px;
+	font-family: 'WAGURITTF';
+	
+	border-radius: 10px;
+	float: left;
+}
+#btn2 {
+	width: 80px;
+	height: 40px;
+	background-color: white;
+	border: none;
+	color: #33ccff;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: 'WAGURITTF';
+	
+	border-radius: 10px;
+	float: left;
+}
+
+#movie{
+	
+	width: 400px;
+	height: 500px;
+	float: right;
+	overflow-y: scroll;
+
+}
+#movie::-webkit-scrollbar {
+  width: 10px;
+ 
+}
+
+#movie::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#movie::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgb(10, 10, 10);
+}
+
+#movie::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+#movie1 {
+	
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	color: white;
+	float: left;
+}
+
+#movie2 {
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	color: white;
+}
+
+#movie3 {
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	color: white;
+}
+
+#movie4 {
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	color: white;
+}
+
+#movie5 {
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+ 	
+	color: white;
+	float: left;
+}
+
+#movie6 {
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: white;
+ 	
+	color: white;
+	float: left;
+}
+
+#mt1{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+
+	float: left;
+}
+
+#mt1a{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+#mt1b{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt1c{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+#mt2a{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt2b{
+		font-size: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		word-break: break-all;
+}
+#mt2c{
+		font-size: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		word-break: break-all;
+}
+
+#mt3a{
+		font-size: 12px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		word-break: break-all;
+}
+#mt3b{
+		font-size: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		word-break: break-all;
+}
+#mt3c{
+		font-size: 10px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		word-break: break-all;
+}
+
+#mt4a{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt4b{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt4c{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+
+#mt5a{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt5b{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt5c{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+
+#mt6a{
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt6b{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+#mt6c{
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+#mt2{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+	
+	float: left;
+}
+
+#mt3{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+	
+	float: left;
+}
+
+#mt4{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+
+	float: left;
+}
+#mt5{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+	
+	float: left;
+}
+#mt6{
+	width: 170px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+
+	float: left;
+}
+
+#im1 {
+	position: relative;
+}
+
+#im5 {
+	margin-left: 50px;
+	margin-top: 250px;
+	width: 550px;
+	height: 200px;
+	position: absolute;
+
+	
+}
+#im2 {
+	color: white;
+	font-size: 30px;
+}
+
+#im3 {
+	color: white;
+	font-size: 25px;
+}
+
+#im4 {
+	color: white;
+	font-size: 15px;
+}
+
+#text {
+	margin-top: 5px;
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+}
+
+#both{
+	width: 1500px; 
+	height: 600px;
+	margin-top: 480px;
+	
+	border: 5px solid black;
+}
+
+#news{
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	margin-top: 20px;
+	margin-left: 80px;
+	width: 650px; 
+	border: 1px solid black;
+	height: 550px;
+	float: left;
+}
+
+#news1{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+#news2{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+
+#news3{
+	margin-top: 5px;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+
+
+#review{
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	margin-left: 70px;
+	margin-top: 20px;
+	border: 1px solid black;
+	width: 650px; 
+	height: 550px;
+	float: left;
+}
+#review1{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+#review2{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+#review3{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	width: 600px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	}
+
+#text1 {
+	
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	clear: both;
+}
+
+#text2 {
+	
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+}
+
+#text3 {
+	margin-top: 480px;
+	font-size: 25px;
+	font-family: 'TTHakgyoansimUndongjangL';
+}
+
+#boxa {
+	width: 1500px;
+	height: 470px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+}
+
+#boxb {
+	/*  border: 2px solid  red; */
+	width: 3500px;
+	height: 402px;
+	margin-top: 30px;
+	position: relative;
+	/*최초 사진 위치값 */
+	left: 40px;
+	right: 0px;
+}
+
+#boxb ul li {
+	/* . 안보이게  */
+	list-style-type: none;
+	/* 이미지가 옆으로 나란해보이게 하기 */
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#boxb ul li img {
+	/* . 안보이게  */
+	width: 250px;
+	height: 400px;
+	margin-right: 45px;
+}
+
+#boxc {
+	width: 1500px;
+	height: 470px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+}
+
+#boxd {
+	/*  border: 2px solid  red; */
+	width: 3500px;
+	height: 402px;
+	margin-top: 30px;
+	position: relative;
+	/*최초 사진 위치값 */
+	left: 40px;
+	right: 0px;
+}
+
+#boxd ul li {
+	/* . 안보이게  */
+	list-style-type: none;
+	/* 이미지가 옆으로 나란해보이게 하기 */
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#boxd ul li img {
+	/* . 안보이게  */
+	width: 250px;
+	height: 400px;
+	margin-right: 45px;
+}
+
+#boxe {
+	width: 1500px;
+	height: 470px;
+	background-color: black;
+	overflow: hidden;
+	position: absolute;
+}
+
+#boxf {
+	/*  border: 2px solid  red; */
+	width: 3500px;
+	height: 402px;
+	margin-top: 30px;
+	position: relative;
+	/*최초 사진 위치값 */
+	left: 40px;
+	right: 0px;
+}
+
+#boxf ul li {
+	/* . 안보이게  */
+	list-style-type: none;
+	/* 이미지가 옆으로 나란해보이게 하기 */
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#boxf ul li img {
+	/* . 안보이게  */
+	width: 250px;
+	height: 400px;
+	margin-right: 45px;
+}
+
+#goods{
+	width: 1500px; 
+	height: 360px;
+    border: 5px solid black;
+}
+
+#product{
+	width: 600px; 
+	height: 330px;
+	margin-top: 10px;
+	margin-left: 100px;
+	border-radius: 20px;
+	border: 1px solid black;
+	float: left;
+}
+
+
+#img1{
+	width: 400px; 
+	height: 300px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 150px;
+	
+	float: left;
+}
+
+#imga{
+	width: 150px; 
+	height: 70px; 
+	margin-top: 15px;
+	margin-left: 10px;
+	display: none;
+	float: left;
+
+}
+#imgb{
+	width: 150px; 
+	height: 70px; 
+	margin-top: 10px;
+	margin-left: 10px;
+	display: none;
+	float: left;
+
+}
+#imgc{
+	width: 150px; 
+	height: 70px; 
+	margin-top: 10px;
+	margin-left: 10px;
+	display: none;
+	float: left;
+
+}
+#imgd{
+	width: 150px; 
+	height: 70px; 
+	margin-top: 10px;
+	margin-left: 10px;
+	display: none;
+	float: left;
+} 
+
+#img2{
+	width: 600px; 
+	height: 70px; 
+	font-size: 20px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	line-height: 3; 
+	margin-left: 100px;
+	margin-top: 20px;
+	
+	float: left;
+}
+
+#imga img{
+
+	width: 60px; 
+	height: 60px;
+}
+
+#img3{
+	width: 600px; 
+	height: 70px;
+	font-size: 20px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	line-height: 3; 
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+}
+#imgb img{
+
+	width: 60px; 
+	height: 60px;
+}
+#img4{
+	width: 600px; 
+	height: 70px;
+	font-size: 20px;
+	font-family: 'TTHakgyoansimUndongjangL';
+	line-height: 3; 
+
+margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+}
+#imgc img{
+
+	width: 60px; 
+	height: 60px;
+}
+
+#img5{
+	width: 600px; 
+	height: 70px;
+	font-size: 20px;
+	font-family: 'TTHakgyoansimUndongjangL';
+
+	line-height: 3; 
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+}
+#imgd img{
+
+	width: 60px; 
+	height: 60px;
+}
+
+#foo {
+	font-size: 25px;
+	font-family: 'WAGURITTF';
+}	
+.df{
+
+	font-size: 15px;
+	font-family: 'WAGURITTF';
+}
+
+.fooa {
+	margin-left: 50px;
+	font-size: 40px;
+	color: black;
+	font-family: 'EF_jejudoldam';
+
+}
+/* Flow의 색상을 분홍색으로 지정 */
+.foob {
+	font-size: 40px;
+	color: #33ccff;
+	font-family: 'EF_jejudoldam';
+	
+}
