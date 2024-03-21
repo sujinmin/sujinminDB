@@ -4,18 +4,23 @@
 	Introspect by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
---><html><head><title>Generic - Introspect by TEMPLATED</title><meta charset="utf-8">
+-->
+<html>
+<head>
+	<title>Generic - Introspect by TEMPLATED</title>
+	<meta charset="utf-8">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<link rel="stylesheet" href="assets/css/main.css"></head><body>
+<link rel="stylesheet" href="../assets/css/main.css"></head><body>
 
 <!-- Header -->
 	<header id="header"><div class="inner">
 					<a href="movie_main.do"class="logo"><span class="film">Film</span><span class="flow">Match</span></a>
-					<nav id="nav"><a href="log.do">Login</a>
-						<a href="mypage.do">Mypage</a>
-                        <a href="manager.do">Manager</a>
-						<a href="service.do">Service</a>
+					<nav id="nav">
+						<a href="../login_form.do">Login</a>
+						<a href="../mypage.do">Mypage</a>
+                        <a href="../admin/admin_main.do">Manager</a>
+						<a href="../service.do">Service</a>
                         
 					</nav></div>
 			</header><a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
