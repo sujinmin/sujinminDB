@@ -10,6 +10,7 @@ import com.movie.filmmatch.vo.MemberVo;
 
 import jakarta.servlet.http.HttpSession;
 
+
 @Controller
 @RequestMapping("/member/") //url앞부분에 매번 요청됨
 public class MemberContoller {
@@ -20,6 +21,7 @@ public class MemberContoller {
 	@Autowired
 	HttpSession session;
 	
+
 	//로그인 폼 띄우기
 	@RequestMapping("login_form.do")
 	public String login_form() {
