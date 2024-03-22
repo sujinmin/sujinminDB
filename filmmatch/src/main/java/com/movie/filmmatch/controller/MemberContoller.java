@@ -56,7 +56,7 @@ public class MemberContoller {
 		//로그인 정보를 세션에 정장
 		session.setAttribute("user", user);
 		
-		return "redirect:../photo/list.do";
+		return "redirect:../member/movie_main.do";
 	}
 	
 	//로그아웃
@@ -66,7 +66,7 @@ public class MemberContoller {
 		//세션에서 로그인 정보 삭제
 		session.removeAttribute("user");
 		
-		return "redirect:../photo/list.do";
+		return "redirect:../member/movie_main.do";
 	}
 	
 	//회원가입 폼띄우기
