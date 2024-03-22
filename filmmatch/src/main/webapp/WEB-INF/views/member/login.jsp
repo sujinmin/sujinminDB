@@ -13,8 +13,8 @@
 <!-- Font -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800" rel="stylesheet">
 <!-- JS code -->
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+
  <script src="${ pageContext.request.contextPath }/js/member/login.js"></script>
 
  <!-- DAUM 주소검색 API -->
